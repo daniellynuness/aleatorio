@@ -12,17 +12,18 @@ public class Palindromo {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("Digite uma palavra: ");
+		System.out.println("Digite uma palavra:");
 		String palavra = leia.nextLine();
-		String palindromo = ""; 
-
+		String reverso = ""; 
+		
+		System.out.println();
 		for (int x = palavra.length() - 1; x >= 0; x--) { 
-			palindromo += palavra.charAt(x); 
+			reverso += palavra.charAt(x); 
 		}
-		if (palindromo.equals(palavra)) { 
-			System.out.println("é palindromo!" + "\n" + palindromo);
+		if (reverso.equals(palavra)) { 
+			System.out.println("correto! "+reverso+" é palíndromo de "+palavra);
 		} else {
-			System.out.println("não é palindromo :(" + "\n" + palindromo);
+			System.out.println("errado! o palíndromo de "+palavra+" é: "+reverso);
 		}
 		
 	}
