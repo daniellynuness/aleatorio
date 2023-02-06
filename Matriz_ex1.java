@@ -1,5 +1,3 @@
-package vetoresEmatrizes;
-
 import java.util.Scanner;
 
 public class Matriz_ex1 {

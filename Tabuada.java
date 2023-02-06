@@ -1,5 +1,3 @@
-package treinamento;
-
 import java.util.Scanner;
 
 public class Tabuada {
@@ -8,7 +6,7 @@ public class Tabuada {
 		int numero = 0, resultado, x;
 
 		Scanner ler = new Scanner(System.in);
-		System.out.println("Digite um número para ver sua tabuada: ");
+		System.out.println("Digite um nï¿½mero para ver sua tabuada: ");
 		numero = ler.nextInt();
 
 		for (x = 1; x <= 10; x++) {

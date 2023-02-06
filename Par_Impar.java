@@ -2,8 +2,6 @@
  que os pares fiquem em ordem crescente e depois os ímpares em ordem decrescente. 
  link= https://sandbox.letscode.com.br/exercicio/15eed6ab-11dd-4e32-8fa8-51b80a1cf96a */
 
-package exemplos_diversos;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

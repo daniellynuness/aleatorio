@@ -3,8 +3,6 @@
 Considere que sempre será possível transformar a string em um palíndromo.
 LINK: https://sandbox.letscode.com.br/exercicio/0de90875-62c3-4cb3-8dc7-779606c81671*/
 
-package exemplos_diversos;
-
 import java.util.Scanner;
 
 public class Palindromo {
